@@ -1,0 +1,49 @@
+body {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container.fullwidth {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.section.marquee-craft {
+  background-color: #fd7d0e;
+}
+
+.section.marquee-skills {
+  background-color: #bb8c26;
+
+}
+
+.marquee {
+  grid-column-gap: 3rem;
+  grid-row-gap: 3rem;
+  display: flex;
+  overflow: hidden;
+}
+
+.marquee-content {
+  min-width: 100%;
+  grid-column-gap: 3rem;
+  grid-row-gap: 3rem;
+  flex: none;
+  justify-content: space-around;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2rem;
+  display: flex;
+}
+
+.text-white {
+  color: #fff;
+}
